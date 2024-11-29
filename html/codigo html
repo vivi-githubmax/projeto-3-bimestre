@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Projeto 3 bimestre </title>
+  <link rel="stylesheet" href="parte.css">
+</head>
+<body>
+  <header id="topo">
+    <div class="container">
+      <h1 class="logo">Minha Marca</h1>
+      <hr>
+      <nav class="menu">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section id="sobre" class="secao">
+      <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>Somos especialistas em soluções digitais. Nossa missão é ajudar empresas a alcançarem seus objetivos por meio de tecnologia inovadora, estratégias de marketing eficientes e designs modernos.</p>
+        <p>Com uma equipe dedicada e experiente, trabalhamos para transformar ideias em resultados reais, ajudando marcas a se destacarem no mercado competitivo.</p>
+      </div>
+    </section>
+
+    <section id="servicos" class="secao">
+      <div class="container">
+        <h2>Nossos Serviços</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Desenvolvimento de Websites</h3>
+            <p>Criação de sites modernos, responsivos e otimizados para SEO, garantindo uma experiência única para seus usuários.</p>
+        </div>
+          <div class="card">
+            <h3>Gestão de Redes Sociais</h3>
+            <p>Planejamento e execução de estratégias para aumentar sua presença digital, engajamentos e vendas.</p>
+        </div>
+          <div class="card">
+            <h3>Consultoria em Marketing Digital</h3>
+            <p> Diagnóstico do seu negócio e implementação de estratégias digitais eficazes para atrair mais clientes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <div class="container">
+        <h2>Fale Conosco</h2>
+        <form>
+          <input type="text" class="input" placeholder="Seu Nome">
+          <input type="email" class="input" placeholder="Seu Email">
+          <textarea class="input" placeholder="Sua Mensagem"></textarea>
+          <button class="botao">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer id="rodape">
+    <div class="container">
+      <p>&copy; 2024 Minha Marca. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,160 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #764979;
+    background-color: #f9f9f9;
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: #1b004b;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  .imagem-sobre {
+    width: 100%; /* Ajusta a largura da imagem ao container */
+    max-width: 600px; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 1rem auto; /* Centraliza a imagem */
+    display: block;
+    border-radius: 8px; /* Arredonda os cantos */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+  }
+  
+  
+  header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  header hr {
+    border: 0;
+    height: 2px;
+    background: #764979;
+    margin: 0.5rem 0;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.5rem;
+  }
+  
+  .menu ul li {
+    margin: 0 1rem;
+  }
+  
+  .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .menu ul li a:hover {
+    color: #764979;
+    
+  }
+  
+  /* Seções principais */
+  .secao {
+    padding: 2rem 0;
+    background: #fff;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .secao:nth-child(even) {
+    background: #f1f1f1;
+  }
+  
+  .secao h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  /* Grid de serviços */
+  .grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .botao {
+    background: #1b004b;
+    color: #fff;
+    border: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .botao:hover {
+    background: #764979;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #1b004b;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
